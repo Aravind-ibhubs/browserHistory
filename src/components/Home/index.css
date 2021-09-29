@@ -1,0 +1,71 @@
+/* Hex: #3367d6
+Hex: #2850a7
+Hex: #ececec
+Hex: #64748b */
+
+.main-home-container {
+  min-height: 100vh;
+}
+.nav-container {
+  width: 100%;
+  height: 9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3367d6;
+}
+
+.nav-logo {
+  margin-left: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-logo {
+    margin-left: 65px;
+  }
+}
+
+.search-logo {
+  height: 35px;
+  width: 40px;
+  border: 1px solid #ececec;
+  background-color: #2850a7;
+}
+
+.search-input {
+  background-color: #2850a7;
+  border: 1px solid #ececec;
+  padding: 10px;
+  color: #ffffff;
+  width: 35vw;
+  margin: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    margin-right: 15vw;
+  }
+}
+
+.unorder-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  min-height: 90vh;
+}
+
+@media screen and (min-width: 768px) {
+  .unorder-container {
+    margin: 40px;
+  }
+}
